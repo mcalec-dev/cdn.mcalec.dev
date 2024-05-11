@@ -1,194 +1,179 @@
-/* CSS STYLES FILE */
-
-
-/* Fonts */
-
 /* Lato Fonts */
 @font-face {
-    font-family: Lato;
-    src: url(https://web.mcalec.dev/fonts/lato/regular.ttf);
-  }
-  @font-face {
-    font-family: LatoBold;
-    src: url(https://web.mcalec.dev/fonts/lato/bold.ttf);
-  }
-  @font-face {
-    font-family: LatoItalic;
-    src: url(https://web.mcalec.dev/fonts/regular-italic.ttf);
-  }
+  font-family: Lato;
+  src: url(https://web.mcalec.dev/fonts/lato/regular.ttf);
+}
+@font-face {
+  font-family: LatoBold;
+  src: url(https://web.mcalec.dev/fonts/lato/bold.ttf);
+}
+@font-face {
+  font-family: LatoItalic;
+  src: url(https://web.mcalec.dev/fonts/regular-italic.ttf);
+}
   
+/* Poppins Fonts */
+@font-face {
+  font-family: Poppins;
+  src: url(https://web.mcalec.dev/fonts/poppins/regular.ttf);
+}
+@font-face {
+  font-family: PoppinsBold;
+  src: url(https://web.mcalec.dev/fonts/poppins/bold.ttf);
+}
   
-  /* Poppins Fonts */
-  @font-face {
-    font-family: Poppins;
-    src: url(https://web.mcalec.dev/fonts/poppins/regular.ttf);
-  }
-  @font-face {
-    font-family: PoppinsBold;
-    src: url(https://web.mcalec.dev/fonts/poppins/bold.ttf);
-  }
+
+/* Main */
   
-  
-  /* Keyframes */
-  @keyframes example {
-    0%   {background-color: white;}
-    25%  {background-color: blue;}
-    50%  {background-color: green;}
-    100% {background-color: red;}
-  }
-  
-  
-  /* Main */
-  
-  *{
-    box-sizing: border-box;
-  }
+*{
+  box-sizing: border-box;
+}
   
   
   
-  .navbar {
-    background-image: url(https://web.mcalec.dev/images/paint.png);
-    text-align: center;
-    color: transparent;
-    font-family: Lato;
-    margin: auto;
-    padding: 0px 0px 0px 0px;
-  .navbar ul {
+.navbar {
+  background-image: url(https://web.mcalec.dev/images/paint.png);
+  text-align: center;
+  color: transparent;
+  font-family: Lato;
+  margin: auto;
+  padding: 0px 0px 0px 0px;
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar li {
+  display: inline;
+  float: right;
+}
+.navbar li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar li a:hover:not(.active) {
+  background-color: darkgray;
+}
+ 
+.active {
+  font-family: LatoBold;
+  background-color: black;
+}
+  
+  
+  
+.main {
+  background-image: url(https://web.mcalec.dev/images/paint.png);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: center;
+  
+ 
+  background-size: cover;
+  text-align: center;
+  color: black;
+  font-family: Lato;
+  padding-top: 20vw;
+  padding-bottom: 20vw;
+  margin: auto;
+}
+  
+.footer {
+  background-color: #1c1c1c;
+  text-align: center;
+  color: white;
+  font-family: Lato;
+  padding-top: 12px;
+  padding-bottom: 30px;
+  margin: auto;
+  text-decoration: none;
+  font-size: medium;
+  
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: transparent;
-    position: fixed;
-    top: 0;
-    width: 100%;
   }
-  .navbar li {
+  
+  li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+   
+  li {
     display: inline;
-    float: right;
-  }
-  .navbar li a {
-    display: block;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  .navbar li a:hover:not(.active) {
-    background-color: darkgray;
   }
   
-  .active {
-    font-family: LatoBold;
-    background-color: black;
-  }
+}
   
   
-  
-  .main {
-    background-image: url(https://web.mcalec.dev/images/paint.png);
-    background-repeat: repeat;
-    background-attachment: scroll;
-    background-position: center;
-  
-  
-    background-size: cover;
-    text-align: center;
-    color: black;
-    font-family: Lato;
-    padding-top: 20vw;
-    padding-bottom: 20vw;
-    margin: auto;
-  }
-  
-  .footer {
-    background-color: #1c1c1c;
-    text-align: center;
-    color: white;
-    font-family: Lato;
-    padding-top: 12px;
-    padding-bottom: 30px;
-    margin: auto;
-    text-decoration: none;
-    font-size: medium;
-  
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: transparent;
-    }
-  
-    li a {
-      color: white;
-      text-align: center;
-      text-decoration: none;
-    }
-    
-    li {
-      display: inline;
-    }
-    
-  }
+/* Titles */
+h1 {
+  color: white;
+  text-align: center;
+  font-family: LatoBold;
+  font-size: xxx-large;
+}
   
   
-  /* Titles */
-  h1 {
-    color: white;
-    text-align: center;
-    font-family: LatoBold;
-    font-size: xxx-large;
-  }
+button {
+  font-family: LatoBold;
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  background-color: White;
+  border-radius: 150px;
+  border: 4px solid Black;
+}
+ 
+html, body {
+  margin: 0px;
+  margin-top: 0vw;
+  background: #ffffff url(https://web.mcalec.dev/images/paint.png) no-repeat fixed center;
+}  
+ 
+button:hover {
+  font-family: LatoBold;
+  color: White;
+  background-color: Black;
+  cursor: pointer;
+  border-radius: 150px;
+  border: 4px solid White;
+}
   
   
-  button {
-    font-family: LatoBold;
-    text-align: center;
-    height: 50px;
-    width: 200px;
-    background-color: White;
-    border-radius: 150px;
-    border: 4px solid Black;
-  }
-  
-  html, body {
-    margin: 0px;
-    margin-top: 0vw;
-    background: #ffffff url(https://web.mcalec.dev/images/paint.png) no-repeat fixed center;
-  }  
-  
-  button:hover {
-    font-family: LatoBold;
-    color: White;
-    background-color: Black;
-    cursor: pointer;
-    border-radius: 150px;
-    border: 4px solid White;
-  }
-  
-  
-  .loader {
-    border: 18px solid white;
-    border-top: 18px solid black;
-    border-radius: 100%;
-    width: 100px;
-    height: 100px;
-    animation: spin 0.00001s linear infinite;
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-  
-  body {
-    overflow: hidden; /* Hidden Scrollbars */
-  }
-  
-  b {
-    font-family: LatoBold;
-  }
-  
-  i {
-    font-family: LatoItalic;
-  }
+.loader {
+  border: 18px solid white;
+  border-top: 18px solid black;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  animation: spin 0.00001s linear infinite;
+}
+ 
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+ 
+body {
+  overflow: hidden; /* Hidden Scrollbars */
+}
+ 
+b {
+  font-family: LatoBold;
+}
+
+i {
+  font-family: LatoItalic;
+}
