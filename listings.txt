@@ -1,0 +1,12 @@
+audio/
+downloads/
+fonts/
+images/
+videos/
+web/
+.gitattrubutes
+.htaccess
+.htpassword
+404.html
+index.html
+README.md
