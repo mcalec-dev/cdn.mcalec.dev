@@ -2,5 +2,5 @@ ErrorDocument 404 /404.html
 
 AuthType Basic
 AuthName "mcalec.dev"
-AuthUserFile /.htpasswd
+AuthUserFile /.htpassword
 Require mcalec
