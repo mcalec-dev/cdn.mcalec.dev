@@ -6,3 +6,6 @@ goat-simulator.mp3
 it-was-a-good-day.mp3
 song-for-denise.mp3
 cupid-phone-guy.mp3
+break-my-stride.mp3
+wiiu-mii-maker.mp3
+shooting-stars.mp3
