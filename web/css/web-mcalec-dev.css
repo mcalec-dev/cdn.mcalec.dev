@@ -1,25 +1,25 @@
 /* Lato Fonts */
 @font-face {
   font-family: Lato;
-  src: url(https://web.mcalec.dev/fonts/lato/regular.ttf);
+  src: url(https://cdn.mcalec.dev/fonts/lato/regular.ttf);
 }
 @font-face {
   font-family: LatoBold;
-  src: url(https://web.mcalec.dev/fonts/lato/bold.ttf);
+  src: url(https://cdn.mcalec.dev/fonts/lato/bold.ttf);
 }
 @font-face {
   font-family: LatoItalic;
-  src: url(https://web.mcalec.dev/fonts/lato/regular-italic.ttf);
+  src: url(https://cdn.mcalec.dev/fonts/lato/regular-italic.ttf);
 }
   
 /* Poppins Fonts */
 @font-face {
   font-family: Poppins;
-  src: url(https://web.mcalec.dev/fonts/poppins/regular.ttf);
+  src: url(https://cdn.mcalec.dev/fonts/poppins/regular.ttf);
 }
 @font-face {
   font-family: PoppinsBold;
-  src: url(https://web.mcalec.dev/fonts/poppins/bold.ttf);
+  src: url(https://cdn.mcalec.dev/fonts/poppins/bold.ttf);
 }
   
 
@@ -32,7 +32,7 @@
   
   
 .navbar {
-  background-image: url(https://web.mcalec.dev/images/png/paint.png);
+  background-image: url(https://cdn.mcalec.dev/images/png/paint.png);
   text-align: center;
   color: transparent;
   font-family: Lato;
@@ -71,7 +71,7 @@
   
   
 .main {
-  background-image: url(https://web.mcalec.dev/images/png/paint.png);
+  background-image: url(https://cdn.mcalec.dev/images/png/paint.png);
   background-repeat: repeat;
   background-attachment: scroll;
   background-position: center;
@@ -139,7 +139,7 @@ button {
 html, body {
   margin: 0px;
   margin-top: 0vw;
-  background: #ffffff url(https://web.mcalec.dev/images/png/paint.png) no-repeat fixed center;
+  background: #ffffff url(https://cdn.mcalec.dev/images/png/paint.png) no-repeat fixed center;
 }  
  
 button:hover {
