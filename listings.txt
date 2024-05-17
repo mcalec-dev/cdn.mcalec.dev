@@ -4,6 +4,7 @@ fonts/
 images/
 videos/
 web/
+.git/
 .gitattrubutes
 .htaccess
 .htpassword

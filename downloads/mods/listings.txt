@@ -1,2 +1,2 @@
 mcalecs-mod/
-mcalecs-change-addon/
+mcalecs-changed-addon/
