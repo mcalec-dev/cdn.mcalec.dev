@@ -9,7 +9,7 @@
 }
 @font-face {
   font-family: LatoItalic;
-  src: url(https://web.mcalec.dev/fonts/regular-italic.ttf);
+  src: url(https://web.mcalec.dev/fonts/lato/regular-italic.ttf);
 }
   
 /* Poppins Fonts */
@@ -32,7 +32,7 @@
   
   
 .navbar {
-  background-image: url(https://web.mcalec.dev/images/paint.png);
+  background-image: url(https://web.mcalec.dev/images/png/paint.png);
   text-align: center;
   color: transparent;
   font-family: Lato;
@@ -71,7 +71,7 @@
   
   
 .main {
-  background-image: url(https://web.mcalec.dev/images/paint.png);
+  background-image: url(https://web.mcalec.dev/images/png/paint.png);
   background-repeat: repeat;
   background-attachment: scroll;
   background-position: center;
@@ -139,7 +139,7 @@ button {
 html, body {
   margin: 0px;
   margin-top: 0vw;
-  background: #ffffff url(https://web.mcalec.dev/images/paint.png) no-repeat fixed center;
+  background: #ffffff url(https://web.mcalec.dev/images/png/paint.png) no-repeat fixed center;
 }  
  
 button:hover {
