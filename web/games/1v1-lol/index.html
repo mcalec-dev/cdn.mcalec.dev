@@ -25,7 +25,7 @@
       });
       window.alert = function(e) {console.log(e)};
     </script>
-    <link rel='shortcut icon' type="image/png" href="https://1v1.lol/img/favicon.png" />
+    <link rel='shortcut icon' type="image/png" href="https://1v1.lol/img/favicon.png?v3" />
     
 	<link rel="alternate" href="https://1v1.lol" hreflang="en">
 	<link rel="alternate" href="https://1v1.lol/de" hreflang="de">
@@ -82,6 +82,32 @@
       <!-- OneTrust Cookies Consent Notice end for 1v1.lol -->
   </head>
   <body>
+    <div class="ads">
+      <div class="ad-smallscreen">
+        <div class="ad ad-rectangle-bottom">
+        </div>
+      </div>
+      <div class="ad ad-rectangle-upper" id="adRectangleUpper">
+        <script>
+          (function(w,pid){
+          var r=function(c,m){c=c.split('').reduce(function(a,b){return(a<<5)-a+b.charCodeAt(0)>>>m},0);return(10+((c*7)%26)).toString(36)+c.toString(36);},y=r(w.location.href.split('#')[0],1),c=r(w.location.href.split('#')[0]+pid,0);
+          w.document.write('<div style="width:300px;height:250px" class="'+c+'"></div>');
+          })(window,83023);
+        </script>
+      </div>
+      <div class="ad-largescreen">
+        <div class="ad ad-leaderboard-bottom">
+        <script>
+          (function(w,pid){
+          var r=function(c,m){c=c.split('').reduce(function(a,b){return(a<<5)-a+b.charCodeAt(0)>>>m},0);return(10+((c*7)%26)).toString(36)+c.toString(36);},y=r(w.location.href.split('#')[0],1),c=r(w.location.href.split('#')[0]+pid,0);
+          w.document.write('<div style="width:300px;height:600px" class="'+c+'"></div>');
+          })(window,85420);
+        </script>
+        </div>
+      </div>
+    </div>
+  
+    <div id="interAdsContainer" style="display: none;"></div>
     <canvas id="gameContainer"></canvas>
     <div class="widget-example-element" id="widget-example-element" style="display: none"></div>
     <div id="loader">
