@@ -1,8 +1,8 @@
 audio/
 downloads/
 fonts/
-images/
-videos/
+img/
+vid/
 web/
 .git/
 .gitattrubutes
