@@ -1,13 +1,13 @@
+.git/
 audio/
 downloads/
 fonts/
 img/
 vid/
 web/
-.git/
+_redirects
 .gitattrubutes
 .htaccess
-.htpassword
+401.html
 404.html
-index.html
 README.md
