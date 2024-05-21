@@ -2,3 +2,6 @@
 /index.* /401
 /home.* /401
 /main.* /401
+/index /401
+/home /401
+/main /401
