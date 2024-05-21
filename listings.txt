@@ -1,6 +1,6 @@
 .git/
 audio/
-downloads/
+download/
 fonts/
 img/
 vid/
