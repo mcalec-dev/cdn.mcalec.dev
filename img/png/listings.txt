@@ -1,3 +1,5 @@
 mcalec.png
+modrinth-favicon.png
 modrinth-gray.png
+modrinth.png
 paint.png

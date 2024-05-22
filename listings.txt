@@ -1,11 +1,9 @@
-.git/
 audio/
 download/
 fonts/
 img/
 vid/
 web/
-_redirects
 .gitattrubutes
 .htaccess
 401.html
