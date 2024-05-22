@@ -1,2 +1,3 @@
 mcalec.png
+modrinth-gray.png
 paint.png
