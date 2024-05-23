@@ -1,2 +1,0 @@
-mcalecs-mod/
-mcalecs-changed-addon/
