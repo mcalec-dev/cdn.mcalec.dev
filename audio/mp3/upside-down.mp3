@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Online convert YouTube to MP3 - YTMP3</title>
+<meta name="description" content="YTMP3.onl is online Youtube to MP3 Converter to free download MP3 from Youtube, convert youtube videos to high-quality mp3 music">
+<meta name="keywords" content="ytmp3, yt to mp3, youtube to mp3, youtube converter">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YKL98BTJN3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YKL98BTJN3');
+</script>
+<meta name="robots" content="index,follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta property="og:url"  content="https://ytmp3.onl" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Online convert YouTube to MP3 - YTMP3">
+<meta property="og:description" content="YTMP3.onl is online Youtube to MP3 Converter to free download MP3 from Youtube, convert youtube videos to high-quality mp3 music">
+<meta property="og:image" content="https://ytmp3.onl/images/logo.png">
+
+<meta charset="UTF-8">
+<!--canonical-->
+<link rel="icon" href="/favicon.ico">
+<link rel="stylesheet" href="/css/a/l.css?d=112702">
+<link rel="stylesheet" href="/css/common.css?d=101601">
+</head>
+<body class="lang-en">
+
+<div id="fb-root"></div>
+
+<div class="nav-block" style="border-bottom: 1px #dadada solid;">
+	
+	<a href="/" >YTMP3</a>
+	
+	<a href="/#use" >How to use</a>
+	
+	<a href="/#faq" >FAQ</a>
+	
+</div>
+<div id="content" style="margin-top: -40px">
+  <a href="/"><img id="logo" src="/images/logo.png" alt="Ytmp3 - Convert Youtube video to Mp3"></a>
+  <div id="converter_wrapper">
+	  <div id="converter" style="padding-top: 5px;padding-bottom: 10px">
+    <div class="input-box">
+        <input id="input" type="text" value="" name="video" autocomplete="off" autofocus placeholder="Please paste a valid YouTube video URL">
+		<button type="submit" id="submit" class="" aria-label="Search">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 20px;width: 20px;fill: #0c77cd;margin: auto;display: block;"><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+			</path></svg>
+		</button>
+    </div>
+    <p class="error-text tl" style="display: none"><span>Oops! URL analyzing failed.</span><br>* Please check out your pasted video address or Internet connection.<br>* </p>
+    <div id="progress" class="j_progress">
+        <span>Analyzing</span> <i class="fa fa-cog fa-spin"></i>
+    </div>
+    <div id="buttons" style="text-align: left; color: #0087cf;">
+        <span></span>
+    </div>
+</div>
+
+<div id="info-analyse" style="text-align: center;"> </div>
+
+<script>
+    let downBtnText = "Download";
+    let downBtnLoadingText = "Loading...";
+</script>
+  <div id="text">
+   <div class="article-link-block">
+    <div class="article-link-con">
+         </div>
+   </div>
+	
+		
+		<h1 style="font-size: 25px;font-weight: 400;">Online YouTube to MP3 Converter</h1>
+		
+		<p id="about">YTMP3.onl is an online YouTube video to MP3 converter that allows users to easily convert and download YouTube videos in MP3 format. This versatile tool is designed to simplify the process of extracting audio or video content from YouTube videos and saving them on your device for offline playback. With a user-friendly interface and a range of useful features, YTMP3 Downloader is a popular choice for individuals who want a convenient and efficient YouTube video downloading experience.</p><br/>
+				<p>YTMP3 YouTube Converter is an online platform designed specifically for converting YouTube to MP3 format. It offers a straightforward and intuitive user experience, making it accessible to users of all levels of technical expertise. By utilizing advanced conversion technology, YTMP3 ensures that the resulting MP3 files retain the audio quality of the original video.</p><br/>
+				
+				<h3 id="use">How to convert YouTube to MP3?</h3><br/>
+				<p><b>STEP 1:</b> Paste a YouTube video link to input.</p>
+				<p><b>STEP 2:</b> Click &#x1F50D; button, then wait for the analyzing finishes</p>
+				<p><b>STEP 3:</b> Wait for the converting to finish and click the "Download MP3".</p><br/>
+				
+				<h3 id="faq">FAQs of YTMP3 Converter</h3><br/>
+				<b>1. Is YTMP3 Converter a free service?</b>
+				<p>Yes, YTMP3 Converter is a free online YouTube MP3 Converter.</p>
+				<b>2. Can I download copyrighted MP3 using YTMP3 Converter?</b>
+				<p>YTMP3 Converter does not restrict or monitor the MP3 users download. However, it is the user’s responsibility to comply with copyright laws and use the downloaded MP3 ethically.</p>
+				<b>3. Can I download multiple MP3 simultaneously?</b>
+				<p>Yes, YTMP3 Converter supports batch downloads, allowing users to download multiple MP3 at once.</p>
+				<b>4. Do I need to install any software or browser extensions to use YTMP3 Converter?</b>
+				<p>No, YTMP3 Converter operates entirely online, and there is no requirement to download or install any additional software or browser extensions.</p>
+				<b>5. What devices are compatible with the downloaded MP3?</b>
+				<p>The MP3 downloaded from YTMP3 Converter can be played on a wide range of devices, including smartphones, tablets, computers, and portable media players.</p>
+				
+				  </div>
+  <div id="separator"></div>
+ </div>
+ <div id="footer">
+  <p>Copyright © 2023 ytmp3.onl. All rights reserved.</p><br/>
+  <a href="/terms-of-use">Terms of Use</a>
+  <a href="/privacy-policy">Privacy Policy</a>
+  <a href="/legal-disclaimer">Legal Disclaimer</a>
+</div>
+<script>
+  let os = ""
+  let __lang = ""
+  let langlink = ""
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="/js/jquery.matchHeight.js"></script>
+<script src="/js/axios.min.js"></script>
+<!--<script src="/js/index.umd.js"></script>-->
+
+ <link rel="stylesheet" href="/css/ytmp3.css?d=092202">
+ <script>
+  var page = "index";	 
+  var error_url_text = "Please paste a video address with https:\/\/ or http:\/\/e.g. https:\/\/www.youtube.com\/watch?v=-BjZmE2gtdo";
+  var loading_text = "Loading...";
+  var down_text = "Download";
+  var failed_text = "<span>Oops! URL analyzing failed.</span><br>* Please check out your pasted video address or Internet connection.<br>* ";
+ </script>
+ <script src="/js/ytmp3.js?d=101606"></script>
+ </body>
+</html>
