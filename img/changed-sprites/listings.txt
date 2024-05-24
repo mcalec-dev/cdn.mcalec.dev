@@ -1,5 +1,0 @@
-characters/
-faces/
-parallaxes/
-pictures/
-system/
