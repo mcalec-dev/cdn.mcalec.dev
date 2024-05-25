@@ -1,3 +1,0 @@
-old/
-mcalecs_changed_addon-0.2a.jar
-mcalecs_changed_addon-0.2b.jar
