@@ -31,57 +31,100 @@
   
   
 .navbar {
-  background-image: url(https://cdn.mcalec.dev/images/png/paint.png);
   text-align: center;
+  background-image: url(https://cdn.mcalec.dev/img/png/paint.png);
   color: transparent;
   font-family: Lato;
   margin: auto;
   padding: 0px 0px 0px 0px;
-}
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: transparent;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.navbar li {
-  display: inline;
-  float: right;
-}
-.navbar li a {
-  display: block;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-.navbar li a:hover:not(.active) {
-  background-color: darkgray;
-}
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    display: inline;
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    color: black;
+    font-family: LatoBold;
+  }
+  
+  li a:active {
+    background-color: black;
+    color: white;
+  }
  
-.active {
-  font-family: LatoBold;
-  background-color: black;
+  .active {
+    font-family: LatoBold;
+    background-color: black
+  }
+  
+}
+
+
+.navbar-left {
+  text-align: center;
+  background-image: url(https://cdn.mcalec.dev/img/png/paint.png);
+  color: transparent;
+  font-family: Lato;
+  margin: auto;
+  padding: 0px 0px 0px 0px;
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    display: inline;
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
 }
   
   
   
 .main {
-  background-image: url(https://cdn.mcalec.dev/images/png/paint.png);
+  background-image: url(https://cdn.mcalec.dev/img/png/paint.png);
   background-repeat: repeat;
   background-attachment: scroll;
   background-position: center;
   
- 
-  background-size: cover;
   text-align: center;
   color: black;
   font-family: Lato;
-  padding-top: 20vw;
-  padding-bottom: 20vw;
+  padding-top: 35vw;
+  padding-bottom: 35vw;
   margin: auto;
 }
   
@@ -137,8 +180,8 @@ button {
  
 html, body {
   margin: 0px;
-  margin-top: 0vw;
-  background: #ffffff url(https://cdn.mcalec.dev/images/png/paint.png) no-repeat fixed center;
+  margin-top: 0px;
+  padding-top: 0px;
 }  
  
 button:hover {
@@ -166,7 +209,10 @@ button:hover {
 }
  
 body {
-  overflow: hidden; /* Hidden Scrollbars */
+  background-image: url(https://cdn.mcalec.dev/img/png/paint.png);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: center;
 }
  
 b {
