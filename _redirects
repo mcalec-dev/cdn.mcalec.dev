@@ -1,7 +1,4 @@
-/ /401
-/index.* /401
-/home.* /401
-/main.* /401
-/index /401
-/home /401
-/main /401
+/home.* /index.html
+/main.* /index.html
+/home /index.html
+/main /index.html
