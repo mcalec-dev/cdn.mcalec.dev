@@ -1,3 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <root>
-
+  <audio>
+    <mp3>
+    </mp3>
+    <opus>
+    </opus>
+    <wav>
+    </wav>
+  </audio>
+  <download>
+    <mods>
+    </mods>
+  </download>
+  <vid>
+    <mov>
+    </mov>
+    <mp4>
+    </mp4>
+  </vid>
+  <web>
+    <css>
+      <web-mcalec-dev>
+      </web-mcalec-dev>
+    </css>
+    <games>
+    </games>
+    <html>
+    </html>
+    <js>
+    </js>
+  </web>
 </root>
