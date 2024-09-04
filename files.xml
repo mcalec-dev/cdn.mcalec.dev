@@ -12,6 +12,12 @@
     <mods>
     </mods>
   </download>
+	<img>
+		<jpeg>
+			<file>blue.jpeg</file>
+			<file>trees.jpeg</file>
+		</jpeg>
+	</img>
   <vid>
     <mov>
     </mov>
@@ -21,6 +27,9 @@
   <web>
     <css>
       <web-mcalec-dev>
+					<file>font-face.css</file>
+					<file>navbar.css</file>
+					<file>style.css</file>
       </web-mcalec-dev>
     </css>
     <games>
