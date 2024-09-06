@@ -46,6 +46,7 @@
         <name>blue.jpeg</name>
         <desc></desc>
       </file>
+
 			<file>
         <name>trees.jpeg</name>
         <desc></desc>
@@ -102,6 +103,16 @@
 
       <file>
         <name>404.html</name>
+        <desc></desc>
+      </file>
+
+      <file>
+        <name>500.html</name>
+        <desc></desc>
+      </file>
+
+      <file>
+        <name>503.html</name>
         <desc></desc>
       </file>
 
