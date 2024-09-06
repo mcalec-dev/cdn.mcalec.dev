@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <audio>
+    <mp3>
+    </mp3>
+    <opus>
+    </opus>
+    <wav>
+    </wav>
+  </audio>
+
+  <download>
+    <mods>
+    </mods>
+  </download>
+
+	<img>
+    <gif>
+      <file>
+        <name>augh.gif</name>
+        <desc></desc>
+      </file>
+
+      <file>
+        <name>bad.gif</name>
+        <desc></desc>
+      </file>
+
+      <file>
+        <name>digital-circus.gif</name>
+        <desc></desc>
+      </file>
+
+      <file>
+        <name>gotten-realistic.gif</name>
+        <desc></desc>
+      </file>
+
+      <file>
+        <name>woah.gif</name>
+        <desc></desc>
+      </file>
+    </gif>
+		<jpeg>
+			<file>
+        <name>blue.jpeg</name>
+        <desc></desc>
+      </file>
+			<file>
+        <name>trees.jpeg</name>
+        <desc></desc>
+      </file>
+		</jpeg>
+    <logo>
+    </logo>
+    <png>
+    </png>
+	</img>
+
+  <vid>
+    <mov>
+    </mov>
+    <mp4>
+    </mp4>
+  </vid>
+
+  <web>
+    <css>
+      <web-mcalec-dev>
+					<file>
+            <name>font-face.css</name>
+            <desc></desc>
+          </file>
+
+					<file>
+            <name>navbar.css</name>
+            <desc></desc>
+          </file>
+
+					<file>
+            <name>style.css</name>
+            <desc></desc>
+          </file>
+      </web-mcalec-dev>
+    </css>
+    <games>
+      <file>
+        <name></name>
+        <desc></desc>
+      </file>
+    </games>
+    <html>
+      <file>
+        <name>401.html</name>
+        <desc></desc>
+      </file>
+
+      <file>
+        <name>403.html</name>
+        <desc></desc>
+      </file>
+
+      <file>
+        <name>404.html</name>
+        <desc></desc>
+      </file>
+
+      <file>
+        <name>who.html</name>
+        <desc></desc>
+      </file>
+    </html>
+    <js>
+      <file>
+        <name></name>
+        <desc></desc>
+      </file>
+    </js>
+  </web>
+</root>
