@@ -1,4 +1,5 @@
-# [cdn.mcalec.dev](https://cdn.mcalec.dev/)
+# Index of cdn.mcalec.dev/
 
-My fairly simple content holding site with no authentication yet. 
+Content Delivery for my sites. You can find the source code below.
 
+[GitHub](https://github.com/McAlec1/cdn-mcalec-dev/) | [Main Site](https://www.mcalec.dev/)
