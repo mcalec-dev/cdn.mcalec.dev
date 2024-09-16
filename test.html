@@ -1,44 +1,31 @@
 <!DOCTYPE html>
 <html>
-<style>
-table,th,td {
-  border : 1px solid black;
-  border-collapse: collapse;
-}
-th,td {
-  padding: 4px;
-}
-</style>
 <body>
 
-<button type="button" onclick="loadXMLDoc()">list</button>
-<br><br>
-<table id="demo"></table>
+<div id='showFile'></div>
 
 <script>
-function loadXMLDoc() {
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      myFunction(this);
-    }
-  };
-  xmlhttp.open("GET", "listings.xml", true);
-  xmlhttp.send();
+displayCD(0);
+
+function displayCD(i) {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            myFunction(this, i);
+        }
+    };
+    xmlhttp.open("GET", "listings.xml", true);
+    xmlhttp.send();
 }
-function myFunction(xml) {
-  var i;
-  var xmlDoc = xml.responseXML;
-  var table="<tr><th>name</th><th>desc</th></tr>";
-  var x = xmlDoc.getElementsByTagName("file");
-  for (i = 0; i <x.length; i++) { 
-    table += "<tr><td>" +
+
+function myFunction(xml, i) {
+    var xmlDoc = xml.responseXML; 
+    x = xmlDoc.getElementsByTagName("file");
+    document.getElementById("showFile").innerHTML =
+    "Name: " +
     x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
-    "</td><td>" +
+    "<br>Desc: " +
     x[i].getElementsByTagName("desc")[0].childNodes[0].nodeValue +
-    "</td></tr>";
-  }
-  document.getElementById("demo").innerHTML = table;
 }
 </script>
 
