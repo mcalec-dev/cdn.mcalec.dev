@@ -11,9 +11,9 @@ th,td {
 </style>
 <body>
 
-<button type="button" onclick="loadXMLDoc()">test</button>
+<button type="button" onclick="loadXMLDoc()">list</button>
 <br><br>
-<table id="new"></table>
+<table id="demo"></table>
 
 <script>
 function loadXMLDoc() {
@@ -38,7 +38,7 @@ function myFunction(xml) {
     x[i].getElementsByTagName("desc")[0].childNodes[0].nodeValue +
     "</td></tr>";
   }
-  document.getElementById("new").innerHTML = table;
+  document.getElementById("demo").innerHTML = table;
 }
 </script>
 
