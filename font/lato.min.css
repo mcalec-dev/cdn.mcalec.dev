@@ -3,3 +3,9 @@
 @font-face {font-family: LatoRegular; src: url(//cdn.mcalec.dev/font/lato/regular.ttf);}
 @font-face {font-family: LatoBold; src: url(//cdn.mcalec.dev/font/lato/bold.ttf);}
 @font-face {font-family: LatoBlack; src: url(//cdn.mcalec.dev/font/lato/black.ttf);}
+
+@font-face {font-family: LatoThinItalic; src: url(//cdn.mcalec.dev/font/lato/thin-italic.ttf);}
+@font-face {font-family: LatoLightItalic; src: url(//cdn.mcalec.dev/font/lato/light-italic.ttf);}
+@font-face {font-family: LatoRegularItalic; src: url(//cdn.mcalec.dev/font/lato/regular-italic.ttf);}
+@font-face {font-family: LatoBoldItalic; src: url(//cdn.mcalec.dev/font/lato/bold-italic.ttf);}
+@font-face {font-family: LatoBlackItalic; src: url(//cdn.mcalec.dev/font/lato/black-italic.ttf);}
