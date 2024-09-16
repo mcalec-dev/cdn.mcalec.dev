@@ -14,13 +14,13 @@ function displayCD(i) {
             myFunction(this, i);
         }
     };
-    xmlhttp.open("POST", "listings.xml", true);
+    xmlhttp.open("POST", "root.xml", true);
     xmlhttp.send();
 }
 
 function myFunction(xml, i) {
     var xmlDoc = xml.responseXML; 
-    x = xmlDoc.getElementsByTagName("file");
+    x = xmlDoc.getElementsByTagName("folder");
     document.getElementById("showFile").innerHTML =
     "Name: " +
     x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
