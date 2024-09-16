@@ -13,7 +13,7 @@ th,td {
 
 <button type="button" onclick="loadXMLDoc()">test</button>
 <br><br>
-<table id="file"></table>
+<table id="new"></table>
 
 <script>
 function loadXMLDoc() {
@@ -30,7 +30,7 @@ function myFunction(xml) {
   var i;
   var xmlDoc = xml.responseXML;
   var table="<tr><th>name</th><th>desc</th></tr>";
-  var x = xmlDoc.getElementsByTagName("CD");
+  var x = xmlDoc.getElementsByTagName("file");
   for (i = 0; i <x.length; i++) { 
     table += "<tr><td>" +
     x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
@@ -38,7 +38,7 @@ function myFunction(xml) {
     x[i].getElementsByTagName("desc")[0].childNodes[0].nodeValue +
     "</td></tr>";
   }
-  document.getElementById("file").innerHTML = table;
+  document.getElementById("new").innerHTML = table;
 }
 </script>
 
