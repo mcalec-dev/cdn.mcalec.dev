@@ -1,4 +1,4 @@
-# Index of cdn.mcalec.dev - /
+# cdn.mcalec.dev - /
 
 Content delivery for all my sites. You can find the source code below at GitHub.
 
