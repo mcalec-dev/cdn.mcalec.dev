@@ -1,0 +1,36 @@
+# robots.txt file for cdn.mcalec.dev
+# Created in the distant future (the year 2000) after
+# the robotic uprising of the mid 90's which wiped out all humans.
+
+User-agent: *
+Disallow: /content/
+Disallow: /.github/
+Disallow: /_headers
+Disallow: /_redirects
+Disallow: /.gitattributes
+Disallow: /.gitignore
+Disallow: /.htaccess
+Disallow: /.test
+Disallow: /LICENSE.md
+Disallow: /README.md
+
+# Explicit rules for common LLM bots that might not attribute source data.
+User-agent: anthropic-ai
+User-agent: Applebot-Extended
+User-agent: Bytespider
+User-agent: CCBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: cohere-ai
+User-agent: Diffbot
+User-agent: FacebookBot
+User-agent: GPTBot
+User-agent: ImagesiftBot
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+User-agent: Omgilibot
+User-agent: PerplexityBot
+User-agent: Timpibot
+Disallow: /*
+
+Sitemap: https://cdn.mcalec.dev/sitemap.xml
