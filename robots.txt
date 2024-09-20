@@ -5,14 +5,6 @@
 User-agent: *
 Disallow: /content/
 Disallow: /.github/
-Disallow: /_headers
-Disallow: /_redirects
-Disallow: /.gitattributes
-Disallow: /.gitignore
-Disallow: /.htaccess
-Disallow: /.test
-Disallow: /LICENSE.md
-Disallow: /README.md
 
 # Explicit rules for common LLM bots that might not attribute source data.
 User-agent: anthropic-ai
@@ -31,6 +23,6 @@ User-agent: Meta-ExternalFetcher
 User-agent: Omgilibot
 User-agent: PerplexityBot
 User-agent: Timpibot
-Disallow: /*
+Disallow: /content/
 
 Sitemap: https://cdn.mcalec.dev/sitemap.xml
