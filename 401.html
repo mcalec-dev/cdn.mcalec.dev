@@ -3,12 +3,18 @@
 <head>
   <title>401 Unauthorized</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script 
-    type="module" 
-    src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"
-  ></script>
+  <script type="module" src="/web/js/modules/zero-md.min.js"></script>
+  <style>
+    html, body {
+      background-color: #0d1117;
+    }
+  </style>
 </head>
 <body>
-  <zero-md src="/web/md/http-errs/401.md"></zero-md>
+  <zero-md src="/web/md/http-errs/401.md">
+    <template>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css@5.6.1/github-markdown-dark.css" />
+    </template>
+  </zero-md>
 </body> 
 </html>
