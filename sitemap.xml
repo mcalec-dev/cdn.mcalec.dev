@@ -6,27 +6,78 @@
   </url>
 
   <url>
-    <loc>https://cdn.mcalec.dev/audio/</loc>
+    <loc>https://cdn.mcalec.dev/app/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/app/jar/</loc>
   </url>
 
   <url>
-    <loc>https://cdn.mcalec.dev/download/</loc>
+    <loc>https://cdn.mcalec.dev/audio/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/audio/mp3/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/audio/opus/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/audio/wav/</loc>
   </url>
 
   <url>
     <loc>https://cdn.mcalec.dev/font/</loc>
   </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/font/lato/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/font/poppins/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/font/roboto/</loc>
+  </url>
 
   <url>
-    <loc>https://cdn.mcalec.dev/img/</loc>
+    <loc>https://cdn.mcalec.dev/image/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/image/gif/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/image/jpeg/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/image/logo/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/png/</loc>
   </url>
 
   <url>
     <loc>https://cdn.mcalec.dev/video/</loc>
   </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/video/mov/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/video/mp4</loc>
+  </url>
 
   <url>
     <loc>https://cdn.mcalec.dev/web/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/web/css/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/web/html/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/web/js/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/web/md/</loc>
   </url>
 
 </urlset>
