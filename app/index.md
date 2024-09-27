@@ -1,4 +1,4 @@
-# cdn.mcalec.dev - /download/
+# cdn.mcalec.dev - /app/
 
 [Parent Directory](../)  
 
