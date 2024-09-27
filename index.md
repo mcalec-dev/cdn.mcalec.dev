@@ -22,5 +22,6 @@ Cool Section:
 
 - [cool](/web/html/cool.html)
 - [out](/web/html/out.html)
+- [rock](/web/html/rock.html)
 
 [GitHub](https://github.com/McAlec1/cdn-mcalec-dev/) | [Main Site](https://www.mcalec.dev/)
