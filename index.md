@@ -2,17 +2,25 @@
 
 Content delivery for all my sites. You can find the source code below at GitHub.  
 
+Directories:
+
 - [app/](/app/)
 - [audio/](/audio/)
 - [font/](/font/)
 - [image/](/image/)
 - [video/](/video/)
 - [web/](/web/)
-- [cool.html](/cool.html)
+
+Files:
+
 - [LICENSE.md](/LICENSE.md)
-- [nuh.html](/nuh.html)
 - [README.md](/README.md)
 - [robots.txt](/robots.txt)
 - [sitemap.xml](/sitemap.xml)
+
+Cool Section:
+
+- [cool](/web/html/cool.html)
+- [out](/web/html/out.html)
 
 [GitHub](https://github.com/McAlec1/cdn-mcalec-dev/) | [Main Site](https://www.mcalec.dev/)
