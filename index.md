@@ -8,6 +8,7 @@ Content delivery for all my sites. You can find the source code below at GitHub.
 - [image/](/image/)
 - [video/](/video/)
 - [web/](/web/)
+- [cool.html](/cool.html)
 - [LICENSE.md](/LICENSE.md)
 - [README.md](/README.md)
 - [robots.txt](/robots.txt)
