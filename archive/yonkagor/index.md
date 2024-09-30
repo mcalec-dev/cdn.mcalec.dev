@@ -39,7 +39,6 @@ Files:
 - [25](music%20%20%20random%20violin%20%20%20guitar%20by%20jonkagor%20(Archive).mp4)
 - [26](music%20%20%20untitled%201%20%20test%20ver%20%20%20by%20jonkagor%20(Archive).mp4)
 - [27](MV%20-%20We%20All%20Suffer%20for%20our%20Art%20(cover).mp4)
-- [28](My%2014th%20Birthday%20Gift.mp4)
 - [29](OC%20MAP%20-%20Unscripted%20Play%20(Cancelled)%20(Archive%20Song).mp4)
 - [30](oops.mp4)
 - [31](Paper%20Alibis%20EP%20[Trailer].mp4)
