@@ -5,6 +5,7 @@ Content delivery for all my sites. You can find the source code below at GitHub.
 Directories:
 
 - [app/](/app/)
+- [archive/](/archive/)
 - [audio/](/audio/)
 - [font/](/font/)
 - [image/](/image/)
