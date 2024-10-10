@@ -4,6 +4,5 @@
 
 - [riddle-school/](riddle-school/)
 - [run/](run/)
-- [wbwwb/](wbwwb/)
 
 [GitHub](https://github.com/McAlec1/cdn-mcalec-dev/) | [Main Site](https://www.mcalec.dev/)
