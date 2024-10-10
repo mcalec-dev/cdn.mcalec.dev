@@ -11,6 +11,15 @@
   <url>
     <loc>https://cdn.mcalec.dev/app/jar/</loc>
   </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/app/jar/mcalecs-changed-addon/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/app/jar/mcalecs-changed-addon/old/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/app/jar/mcalecs-mod/</loc>
+  </url>
 
   <url>
     <loc>https://cdn.mcalec.dev/audio/</loc>
@@ -51,6 +60,12 @@
     <loc>https://cdn.mcalec.dev/image/logo/</loc>
   </url>
   <url>
+    <loc>https://cdn.mcalec.dev/image/logo/furry-flare/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/image/logo/mcalec/</loc>
+  </url>
+  <url>
     <loc>https://cdn.mcalec.dev/png/</loc>
   </url>
 
@@ -71,7 +86,28 @@
     <loc>https://cdn.mcalec.dev/web/css/</loc>
   </url>
   <url>
+    <loc>https://cdn.mcalec.dev/web/css/cdn-mcalec-dev/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/web/css/github-markdown/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/web/css/prism/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/web/css/web-mcalec-dev</loc>
+  </url>
+  <url>
     <loc>https://cdn.mcalec.dev/web/html/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/web/html/flash/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/web/html/flash/riddle-school/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/web/html/flash/run/</loc>
   </url>
   <url>
     <loc>https://cdn.mcalec.dev/web/js/</loc>
