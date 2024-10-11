@@ -3,8 +3,8 @@
 # the robotic uprising of the mid 90's which wiped out all humans.
 
 User-agent: *
-Disallow: /content/
-Disallow: /.github/
+Disallow: /content/*
+Disallow: /.github/*
 
 # Explicit rules for common LLM bots that might not attribute source data.
 User-agent: anthropic-ai
