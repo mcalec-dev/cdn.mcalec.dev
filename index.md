@@ -18,7 +18,7 @@ Files:
 - [robots.txt](/robots.txt)
 - [sitemap.xml](/sitemap.xml)
 
-Cool Section:
+Cool Stuff:
 
 - [cool](/web/html/cool.html)
 - [out](/web/html/out.html)
