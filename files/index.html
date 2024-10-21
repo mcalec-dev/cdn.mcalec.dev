@@ -39,7 +39,6 @@
     <table id="list"></table>
   </div>
   <div>
-    <input type="file" id="file-picker" name="fileList" webkitdirectory multiple />
     <ul id="listing"></ul>
   </div>
   <p style="text-align: center;">c-den is an <u><a href="https://myrient.erista.me/" target="_blank">Myrient</a></u> service.</p>
@@ -47,14 +46,28 @@
     <p style="text-align: center;">(c) 2024 McAlec</p>
   </footer>
   <script>
-    document.getElementById("file-picker").addEventListener("change", (event) => {
+    const fs = require('fs');
+
+const directoryPath = '/audio/mp3/';
+
+// Read the contents of the directory
+fs.readdir(directoryPath, (err, files) => {
+  if (err) {
+    console.error('Error reading directory:', err);
+    return;
+  }
+
+  // Log the list of file names
+  console.log('Files in the directory:');
+  files.forEach(file => {
     let output = document.getElementById("listing");
     for (const file of event.target.files) {
       let item = document.createElement("li");
       item.textContent = file.webkitRelativePath;
       output.appendChild(item);
-    }
   });
+});
+
   </script>
   <script src="https://unpkg.com/xregexp/xregexp-all.js"></script>
   <script type="text/javascript" src="/assets/search.js"></script>
