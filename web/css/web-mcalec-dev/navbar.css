@@ -3,8 +3,10 @@
 @import url("https://cdn.mcalec.dev/font/roboto.min.css");
 
 .navbar {
+  position: sticky;
+  top: 0;
   text-align: center;
-  background-image: url(https://cdn.mcalec.dev/img/png/paint.png);
+  background-image: none;
   color: transparent;
   font-family: Lato;
   margin: auto;
