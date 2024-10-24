@@ -1,3 +1,7 @@
+@import url("https://cdn.mcalec.dev/font/lato.min.css");
+@import url("https://cdn.mcalec.dev/font/poppins.min.css");
+@import url("https://cdn.mcalec.dev/font/roboto.min.css");
+
 .navbar {
   text-align: center;
   background-image: url(https://cdn.mcalec.dev/img/png/paint.png);
