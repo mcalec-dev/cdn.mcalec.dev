@@ -1,0 +1,18 @@
+.loader {
+  position: absolute;
+  border: 18px solid white;
+  border-top: 18px solid black;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+  display: none;
+}
+
+@keyframes spin {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(90deg);}
+  50% {transform: rotate(180deg);}
+  75% {transform: rotate(270deg);}
+  100% {transform: rotate(360deg);}
+}

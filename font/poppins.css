@@ -1,0 +1,88 @@
+@font-face {
+  font-family: PoppinsThin; 
+  src: url(//cdn.mcalec.dev/fonts/poppins/thin.ttf);
+}
+
+@font-face {
+  font-family: PoppinsExtraLight; 
+  src: url(//cdn.mcalec.dev/fonts/poppins/extra-light.ttf);
+}
+
+@font-face {
+  font-family: PoppinsLight; 
+  src: url(//cdn.mcalec.dev/fonts/poppins/light.ttf);
+}
+
+@font-face {
+  font-family: Poppins; 
+  src: url(//cdn.mcalec.dev/fonts/poppins/regular.ttf);
+}
+
+@font-face {
+  font-family: PoppinsMedium; 
+  src: url(//cdn.mcalec.dev/fonts/poppins/medium.ttf);
+}
+
+@font-face {
+  font-family: PoppinsSemiBold; 
+  src: url(//cdn.mcalec.dev/fonts/poppins/semi-bold.ttf);
+}
+
+@font-face {
+  font-family: PoppinsBold; 
+  src: url(//cdn.mcalec.dev/fonts/poppins/bold.ttf);
+}
+
+@font-face {
+  font-family: PoppinsExtraBold; 
+  src: url(//cdn.mcalec.dev/fonts/poppins/extra-bold.ttf);
+}
+
+@font-face {
+  font-family: PoppinsBlack; 
+  src: url(//cdn.mcalec.dev/fonts/poppins/black.ttf);
+}
+
+
+@font-face {
+  font-family: PoppinsThinItalic; 
+  src: url(//cdn.mcalec.dev/fonts/poppins/thin-italic.ttf);
+}
+@font-face {
+  font-family: PoppinsExtraLightItalic; 
+  src: url(//cdn.mcalec.dev/fonts/poppins/extra-light-italic.ttf);
+}
+
+@font-face {
+  font-family: PoppinsLightItalic; 
+  src: url(//cdn.mcalec.dev/fonts/poppins/light-italic.ttf);
+}
+
+@font-face {
+  font-family: PoppinsItalic; 
+  src: url(//cdn.mcalec.dev/fonts/poppins/regular-italic.ttf);
+}
+  
+@font-face {
+  font-family: PoppinsMediumItalic; 
+  src: url(//cdn.mcalec.dev/fonts/poppins/medium-italic.ttf);
+}
+
+@font-face {
+  font-family: PoppinsSemiBoldItalic; 
+  src: url(//cdn.mcalec.dev/fonts/poppins/semi-bold-italic.ttf);
+}
+
+@font-face {
+  font-family: PoppinsBoldItalic; 
+  src: url(//cdn.mcalec.dev/fonts/poppins/bold-italic.ttf);
+}
+
+@font-face {
+  font-family: PoppinsExtraBoldItalic; src: url(//cdn.mcalec.dev/fonts/poppins/extra-bold-italic.ttf);
+}
+
+@font-face {
+  font-family: PoppinsBlackItalic; 
+  src: url(//cdn.mcalec.dev/fonts/poppins/black-italic.ttf);
+}
