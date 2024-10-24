@@ -7,10 +7,6 @@
 }
 
 .main {
-  background-image: url("https://cdn.mcalec.dev/image/jpeg/trees.jpeg");
-  background-attachment: scroll;
-  background-position: center;
-
   color: black;
   font-family: Lato;
   padding-top: 43.5vb;
@@ -84,7 +80,7 @@ button:hover {
 }
 
 body {
-  background-image: url("https://cdn.mcalec.dev/image/png/paint.png");
+  background-image: url("https://cdn.mcalec.dev/image/jpeg/trees.jpeg");
   background-repeat: repeat;
   background-attachment: scroll;
   background-position: center;
