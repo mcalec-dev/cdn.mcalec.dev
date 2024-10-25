@@ -9,12 +9,12 @@
 .main {
   color: black;
   font-family: Lato;
-  padding-top: 43.5vb;
-  padding-bottom: 43.5vb;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 
 .footer {
-  background-color: black;
+  background-color: #000;
   text-align: center;
   color: white;
   font-family: Lato;
@@ -50,7 +50,7 @@ h1 {
   color: white;
   text-align: center;
   font-family: LatoBold;
-  font-size: xxx-large;
+  font-size: 2em;
 }
 
 
