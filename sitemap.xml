@@ -8,18 +8,6 @@
   <url>
     <loc>https://cdn.mcalec.dev/app/</loc>
   </url>
-  <url>
-    <loc>https://cdn.mcalec.dev/app/jar/</loc>
-  </url>
-  <url>
-    <loc>https://cdn.mcalec.dev/app/jar/mcalecs-changed-addon/</loc>
-  </url>
-  <url>
-    <loc>https://cdn.mcalec.dev/app/jar/mcalecs-changed-addon/old/</loc>
-  </url>
-  <url>
-    <loc>https://cdn.mcalec.dev/app/jar/mcalecs-mod/</loc>
-  </url>
 
   <url>
     <loc>https://cdn.mcalec.dev/audio/</loc>
@@ -95,9 +83,6 @@
     <loc>https://cdn.mcalec.dev/web/css/prism/</loc>
   </url>
   <url>
-    <loc>https://cdn.mcalec.dev/web/css/web-mcalec-dev</loc>
-  </url>
-  <url>
     <loc>https://cdn.mcalec.dev/web/html/</loc>
   </url>
   <url>
@@ -113,7 +98,16 @@
     <loc>https://cdn.mcalec.dev/web/js/</loc>
   </url>
   <url>
+    <loc>https://cdn.mcalec.dev/web/js/modules/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/web/js/modules/prism/</loc>
+  </url>
+  <url>
     <loc>https://cdn.mcalec.dev/web/md/</loc>
+  </url>
+  <url>
+    <loc>https://cdn.mcalec.dev/web/md/http-errs/</loc>
   </url>
 
 </urlset>

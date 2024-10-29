@@ -13,9 +13,8 @@ Directories:
 
 Files:
 
-- [LICENSE.md](/LICENSE.md)
+- [LICENSE](/LICENSE)
 - [README.md](/README.md)
-- [robots.txt](/robots.txt)
 - [sitemap.xml](/sitemap.xml)
 
 Cool Stuff:
