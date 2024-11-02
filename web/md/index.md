@@ -1,9 +1,8 @@
-# cdn.mcalec.dev - /font/
+# cdn.mcalec.dev - /web/md/
 
 [Parent Directory](../)  
 
-- [lato/](lato/)
-- [poppins/](poppins/)
-- [roboto/](roboto/)
+- [http-errs/](http-errs/)
+- [template.md](template.md)
 
 [GitHub](https://github.com/McAlec1/cdn-mcalec-dev/) | [Main Site](https://www.mcalec.dev/)

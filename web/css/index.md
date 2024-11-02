@@ -1,10 +1,10 @@
-# cdn.mcalec.dev - /web/js/
+# cdn.mcalec.dev - /web/css/
 
 [Parent Directory](../)  
 
+- [cdn-mcalec-dev/](cdn-mcalec-dev/)
+- [font/](font/)
+- [github-markdown/](github-markdown/)
 - [prism/](prism/)
-- [fixme.js](fixme.js)
-- [marked.min.js](marked.min.js)
-- [zero-md.min.js](zero-md.min.js)
 
 [GitHub](https://github.com/McAlec1/cdn-mcalec-dev/) | [Main Site](https://www.mcalec.dev/)
