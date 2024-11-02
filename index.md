@@ -19,8 +19,8 @@ Files:
 
 Cool Stuff:
 
-- [cool](/web/html/cool.html)
-- [out](/web/html/out.html)
-- [rock](/web/html/rock.html)
+- [rock](/web/html/cool-stuff/rock.html)
+- [cool](/web/html/cool-stuff/cool.html)
+- [out](/web/html/cool-stuff/out.html)
 
 [GitHub](https://github.com/McAlec1/cdn-mcalec-dev/) | [Main Site](https://www.mcalec.dev/)

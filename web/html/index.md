@@ -3,7 +3,7 @@
 [Parent Directory](../)  
 
 - [cool-stuff/](cool-stuff/)
-- [flash/](flash/)
+- [flash/](/web/swf/)
 - [games/](https://games.mcalec.dev/)
 - [markdown-testing/](markdown-testing/)
 - [cool-stuff/](cool-stuff/)
