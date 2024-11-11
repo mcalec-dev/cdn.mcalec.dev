@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dynamic Transparent Navbar</title>
+  <title>Dynamic Transparent Navbar with Blurred Background</title>
   <style>
     /* Basic reset */
     * {
@@ -17,6 +17,7 @@
       position: fixed;
       top: 0;
       width: 100%;
+      height: 60px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -27,27 +28,27 @@
 
     /* Transparent by default */
     .navbar.transparent {
-      background-color: rgba(0, 0, 0, 0.3); /* Subtle transparent black */
+      background-color: rgba(0, 0, 0, 0.3);
     }
 
     /* Solid background on scroll */
     .navbar.scrolled {
-      background-color: rgba(0, 0, 0, 0.85); /* Darker black on scroll */
+      background-color: rgba(0, 0, 0, 0.85);
     }
 
-    /* Navbar internal styling */
+    /* Navbar content without extra padding */
     .navbar .site-name {
       color: #fff;
       font-size: 1.5rem;
       font-weight: bold;
-      margin-left: 1rem; /* Minimal margin */
+      margin-left: 1rem;
     }
 
     .navbar ul {
       list-style-type: none;
       display: flex;
-      gap: 1.5rem;
-      margin-right: 1rem; /* Minimal margin */
+      gap: 1rem;
+      margin-right: 1rem;
     }
 
     .navbar ul li a {
@@ -61,17 +62,29 @@
       color: #ddd;
     }
 
-    /* Background image */
+    /* Container for the hero section with blurred image */
     .hero {
       position: relative;
       width: 100%;
       height: 100vh;
+      overflow: hidden;
+    }
+
+    /* Blurred background image */
+    .hero-image {
+      width: 100%;
+      height: 100%;
       background-image: url('https://via.placeholder.com/1920x1080');
       background-size: cover;
       background-position: center;
+      filter: blur(5px); /* Slight blur effect */
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
     }
 
-    /* Overlay text */
+    /* Overlay text, unblurred */
     .hero-text {
       position: absolute;
       top: 50%;
@@ -81,13 +94,13 @@
       font-size: 3rem;
       font-weight: bold;
       text-align: center;
-      z-index: 1;
+      z-index: 2;
     }
 
     /* Main content styling */
     .content {
       padding: 2rem;
-      margin-top: 100vh; /* Content starts just below the image */
+      margin-top: 100vh; /* Content starts just below the hero section */
     }
   </style>
 </head>
@@ -104,8 +117,9 @@
     </ul>
   </nav>
 
-  <!-- Full-screen background image with overlay text -->
+  <!-- Hero section with blurred background image and unblurred text overlay -->
   <div class="hero">
+    <div class="hero-image"></div>
     <div class="hero-text">Welcome to My Website</div>
   </div>
 
