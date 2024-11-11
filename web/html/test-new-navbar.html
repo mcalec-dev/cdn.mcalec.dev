@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Navigation Bar with Blurred Background</title>
+  <style>
+    /* Basic reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Navbar styling */
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      transition: background-color 0.4s ease-in-out; /* Smooth transition */
+      z-index: 1000;
+    }
+
+    .navbar.transparent {
+      background-color: transparent;
+    }
+
+    .navbar.scrolled {
+      background-color: #333;
+    }
+
+    /* Nested styling for navbar elements */
+    .navbar .site-name {
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .navbar ul li {
+      display: inline;
+    }
+
+    .navbar ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    .navbar ul li a:hover {
+      color: #ddd;
+    }
+
+    /* Background image with blur effect */
+    .hero {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background-image: url('https://via.placeholder.com/1920x1080');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      filter: blur(3px); /* Slight blur effect */
+    }
+
+    /* Overlay text */
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 3rem;
+      font-weight: bold;
+      text-align: center;
+      z-index: 1;
+    }
+
+    /* Main content styling */
+    .content {
+      padding: 2rem;
+      margin-top: 100vh; /* Ensure the content starts just below the image */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation bar -->
+  <nav class="navbar transparent" id="navbar">
+    <div class="site-name">MyWebsite</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Full-screen background image with overlay text -->
+  <div class="hero">
+    <div class="hero-text">Welcome to My Website</div>
+  </div>
+
+  <!-- Main content -->
+  <div class="content" id="content">
+    <h1>Main Content Section</h1>
+    <p>This is the main content of the page.</p>
+  </div>
+
+  <script>
+    // JavaScript to handle scroll event
+    const navbar = document.getElementById('navbar');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 0) {
+        navbar.classList.remove('transparent');
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.add('transparent');
+        navbar.classList.remove('scrolled');
+      }
+    });
+  </script>
+
+</body>
+</html>
