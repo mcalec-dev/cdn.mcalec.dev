@@ -17,7 +17,6 @@
       position: fixed;
       top: 0;
       width: 100%;
-      padding: 1rem 2rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -28,29 +27,27 @@
 
     /* Transparent by default */
     .navbar.transparent {
-      background-color: rgba(0, 0, 0, 0.4); /* Partially transparent */
+      background-color: rgba(0, 0, 0, 0.3); /* Subtle transparent black */
     }
 
     /* Solid background on scroll */
     .navbar.scrolled {
-      background-color: rgba(0, 0, 0, 0.85); /* Less transparent on scroll */
+      background-color: rgba(0, 0, 0, 0.85); /* Darker black on scroll */
     }
 
-    /* Nested styling for navbar elements */
+    /* Navbar internal styling */
     .navbar .site-name {
       color: #fff;
       font-size: 1.5rem;
       font-weight: bold;
+      margin-left: 1rem; /* Minimal margin */
     }
 
     .navbar ul {
       list-style-type: none;
       display: flex;
       gap: 1.5rem;
-    }
-
-    .navbar ul li {
-      display: inline;
+      margin-right: 1rem; /* Minimal margin */
     }
 
     .navbar ul li a {
@@ -64,7 +61,7 @@
       color: #ddd;
     }
 
-    /* Background image with blur effect */
+    /* Background image */
     .hero {
       position: relative;
       width: 100%;
@@ -72,8 +69,6 @@
       background-image: url('https://via.placeholder.com/1920x1080');
       background-size: cover;
       background-position: center;
-      background-attachment: fixed;
-      filter: blur(3px); /* Slight blur effect */
     }
 
     /* Overlay text */
