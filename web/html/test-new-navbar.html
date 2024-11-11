@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Animated Navigation Bar with Blurred Background</title>
+  <title>Dynamic Transparent Navbar</title>
   <style>
     /* Basic reset */
     * {
@@ -22,16 +22,18 @@
       justify-content: space-between;
       align-items: center;
       font-family: Arial, sans-serif;
-      transition: background-color 0.4s ease-in-out; /* Smooth transition */
+      transition: background-color 0.4s ease-in-out;
       z-index: 1000;
     }
 
+    /* Transparent by default */
     .navbar.transparent {
-      background-color: transparent;
+      background-color: rgba(0, 0, 0, 0.4); /* Partially transparent */
     }
 
+    /* Solid background on scroll */
     .navbar.scrolled {
-      background-color: #333;
+      background-color: rgba(0, 0, 0, 0.85); /* Less transparent on scroll */
     }
 
     /* Nested styling for navbar elements */
@@ -90,7 +92,7 @@
     /* Main content styling */
     .content {
       padding: 2rem;
-      margin-top: 100vh; /* Ensure the content starts just below the image */
+      margin-top: 100vh; /* Content starts just below the image */
     }
   </style>
 </head>
