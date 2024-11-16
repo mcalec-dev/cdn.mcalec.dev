@@ -1,136 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dynamic Transparent Navbar with Blurred Background</title>
-  <style>
-    /* Basic reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    /* Navbar styling */
-    .navbar {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      height: 60px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-family: Arial, sans-serif;
-      transition: background-color 0.4s ease-in-out;
-      z-index: 1000;
-    }
-
-    /* Transparent by default */
-    .navbar.transparent {
-      background-color: rgba(0, 0, 0, 0.3);
-    }
-
-    /* Solid background on scroll */
-    .navbar.scrolled {
-      background-color: rgba(0, 0, 0, 0.85);
-    }
-
-    /* Navbar content without extra padding */
-    .navbar .site-name {
-      color: #fff;
-      font-size: 1.5rem;
-      font-weight: bold;
-      margin-left: 1rem;
-    }
-
-    .navbar ul {
-      list-style-type: none;
-      display: flex;
-      gap: 1rem;
-      margin-right: 1rem;
-    }
-
-    .navbar ul li a {
-      color: #fff;
-      text-decoration: none;
-      font-size: 1rem;
-      transition: color 0.3s ease;
-    }
-
-    .navbar ul li a:hover {
-      color: #ddd;
-    }
-
-    /* Container for the hero section with blurred image */
-    .hero {
-      position: relative;
-      width: 100%;
-      height: 100vh;
-      overflow: hidden;
-    }
-
-    /* Blurred background image */
-    .hero-image {
-      width: 100%;
-      height: 100%;
-      background-image: url('https://via.placeholder.com/1920x1080');
-      background-size: cover;
-      background-position: center;
-      filter: blur(5px); /* Slight blur effect */
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 1;
-    }
-
-    /* Overlay text, unblurred */
-    .hero-text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-size: 3rem;
-      font-weight: bold;
-      text-align: center;
-      z-index: 2;
-    }
-
-    /* Main content styling */
-    .content {
-      padding: 2rem;
-      background-color: #f9f9f9;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>web.mcalec.dev</title>
+  <link rel="stylesheet" href="/web/css/cdn-mcalec-dev/working-new.css" />
 </head>
 <body>
-
-  <!-- Navigation bar -->
   <nav class="navbar transparent" id="navbar">
-    <div class="site-name">MyWebsite</div>
+    <div class="site-name">mcalec.dev</div>
     <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li class="active"><a href="/">Home</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/contact/">Contact</a></li>
+      <li><a href="/legal/">Legal</a></li>
     </ul>
   </nav>
 
-  <!-- Hero section with blurred background image and unblurred text overlay -->
-  <div class="hero">
-    <div class="hero-image"></div>
-    <div class="hero-text">Welcome to My Website</div>
+  <div class="hero" id="home">
+    <div class="bgimage"></div>
+    <div class="bgtext"><h1>mcalec</h1></div>
   </div>
 
-  <!-- Main content directly after the hero section -->
-  <div class="content" id="content">
+  <div class="content">
     <h1>Main Content Section</h1>
     <p>This is the main content of the page.</p>
   </div>
 
-  <script>
-    // JavaScript to handle scroll event
+  <script defer>
     const navbar = document.getElementById('navbar');
 
     window.addEventListener('scroll', () => {
@@ -143,6 +40,5 @@
       }
     });
   </script>
-
 </body>
 </html>
