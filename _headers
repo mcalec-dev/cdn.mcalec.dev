@@ -1,2 +1,44 @@
 /*
   Access-Control-Allow-Origin: *
+
+/audio/mp3/*
+  Content-Type: audio/mpeg
+
+/audio/opus/*
+  Content-Type: audio/opus
+
+/audio/wav/*
+  Content-Type: audio/vnd.wav
+
+/font/*
+  Content-Type: application/x-font-ttf
+
+/image/gif/*
+  Content-Type: image/gif
+
+/image/jpeg/*
+  Content-Type: image/jpeg
+
+/image/png/*
+  Content-Type: image/png
+
+/video/mov/*
+  Content-Type: video/quicktime
+
+/video/mp4/*
+  Content-Type: video/mp4
+
+/web/css/*
+  Content-Type: text/css
+
+/web/html/*
+  Content-Type: text/html
+
+/web/js/*
+  Content-Type: text/javascript
+
+/web/md/*
+  Content-Type: text/markdown
+
+/web/swf/*
+  Content-Type: application/x-shockwave-flash
