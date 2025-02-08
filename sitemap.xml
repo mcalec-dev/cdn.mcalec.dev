@@ -6,10 +6,6 @@
   </url>
 
   <url>
-    <loc>https://cdn.mcalec.dev/app/</loc>
-  </url>
-
-  <url>
     <loc>https://cdn.mcalec.dev/audio/</loc>
   </url>
   <url>
@@ -39,22 +35,10 @@
     <loc>https://cdn.mcalec.dev/image/</loc>
   </url>
   <url>
-    <loc>https://cdn.mcalec.dev/image/gif/</loc>
-  </url>
-  <url>
     <loc>https://cdn.mcalec.dev/image/jpeg/</loc>
   </url>
   <url>
-    <loc>https://cdn.mcalec.dev/image/logo/</loc>
-  </url>
-  <url>
-    <loc>https://cdn.mcalec.dev/image/logo/furry-flare/</loc>
-  </url>
-  <url>
-    <loc>https://cdn.mcalec.dev/image/logo/mcalec/</loc>
-  </url>
-  <url>
-    <loc>https://cdn.mcalec.dev/png/</loc>
+    <loc>https://cdn.mcalec.dev/image/png/</loc>
   </url>
 
   <url>
@@ -98,10 +82,13 @@
     <loc>https://cdn.mcalec.dev/web/js/</loc>
   </url>
   <url>
-    <loc>https://cdn.mcalec.dev/web/js/modules/</loc>
+    <loc>https://cdn.mcalec.dev/web/js/prism/</loc>
   </url>
-  <url>
-    <loc>https://cdn.mcalec.dev/web/js/modules/prism/</loc>
+    <url>
+    <loc>https://cdn.mcalec.dev/web/js/ruffle/</loc>
+  </url>
+    <url>
+    <loc>https://cdn.mcalec.dev/web/js/zero-md/</loc>
   </url>
   <url>
     <loc>https://cdn.mcalec.dev/web/md/</loc>

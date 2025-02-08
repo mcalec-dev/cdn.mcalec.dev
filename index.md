@@ -4,7 +4,6 @@ Content delivery for all my sites. You can find the source code below at GitHub.
 
 Directories:
 
-- [app/](/app/)
 - [audio/](/audio/)
 - [font/](/font/)
 - [image/](/image/)
@@ -15,6 +14,7 @@ Files:
 
 - [LICENSE](/LICENSE)
 - [README.md](/README.md)
+- [robots.txt](/robots.txt)
 - [sitemap.xml](/sitemap.xml)
 
 Cool Stuff:
