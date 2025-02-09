@@ -1,0 +1,78 @@
+p {font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";font-size:16px;}
+
+#music-box {
+  position: fixed;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  width: auto;
+  background-color: #0d1117;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  z-index: 10
+}
+
+#music-info {
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  text-align: left
+}
+
+#music,#music-skip {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%
+}
+
+#music {
+  background: url("https://3kh0.net/svg/play.svg") no-repeat center center;
+  margin-left: 0
+}
+
+#music.paused {
+  background: url("https://3kh0.net/svg/pause.svg") no-repeat center center
+}
+
+#music-skip {
+  background: url("https://3kh0.net/svg/skip.svg") no-repeat center center;
+  display: none
+}
+
+#music-cover {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 10px;
+  display: none
+}
+
+@media (max-width: 600px) {
+  #music-box {
+    width:100%;
+    margin: 0;
+    border-radius: 0;
+    left: 0;
+    right: 0
+  }
+
+  #music-info {
+    font-size: 14px
+  }
+
+  #music,#music-skip {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px
+  }
+}
