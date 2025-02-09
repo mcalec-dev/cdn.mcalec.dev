@@ -1,39 +1,21 @@
 const songs = [{
-  title: "bruh-what",
-  src: "bruh-what.mp3"
+  title: "buzzer.wav",
+  src: "buzzer.wav"
 }, {
-  title: "cats-remix",
-  src: "cats-remix.mp3"
+  title: "level-1.wav",
+  src: "level-1.wav"
 }, {
-  title: "cats",
-  src: "cats.mp3"
+  title: "menu-1.wav",
+  src: "menu-1.wav"
 }, {
-  title: "hotel-california",
-  src: "hotel-california.mp3"
+  title: "moon-theme.wav",
+  src: "moon-theme.wav"
 }, {
-  title: "i-wanna-be-like-you",
-  src: "i-wanna-be-like-you.mp3"
+  title: "organic.wav",
+  src: "organic.wav"
 }, {
-  title: "moves-like-jagger",
-  src: "moves-like-jagger.mp3"
-}, {
-  title: "this-love",
-  src: "this-love.mp3"
-}, {
-  title: "upside-down",
-  src: "upside-down.mp3"
-}, {
-  title: "veridis-quo",
-  src: "veridis-quo.mp3"
-}, {
-  title: "virtual-insanity",
-  src: "virtual-insanity.mp3"
-}, {
-  title: "wiiu-eshop-music",
-  src: "wiiu-eshop-music.mp3"
-}, {
-  title: "wiiu-mii-maker",
-  src: "wiiu-mii-maker.mp3"
+  title: "transfur.wav",
+  src: "transfur.wav"
 }];
 let currentSong = 0;
 function initMusic() {
@@ -41,14 +23,14 @@ function initMusic() {
     , t = document.getElementById("music")
     , s = document.getElementById("music-skip")
     , n = document.getElementById("music-info")
-    , i = document.getElementById("music-cover");
+  //  , i = document.getElementById("music-cover");
   //function c() {
-  //    i.src = `./audio/mp3/thumbnails/${songs[currentSong].src.replace(".mp3", ".png")}`,
+  //    i.src = `/audio/mp3/thumbnails/${songs[currentSong].src.replace(".mp3", ".png")}`,
   //    i.style.display = "block"
   //}
   function o() {
       currentSong = (currentSong + 1) % songs.length,
-      e.src = `/audio/mp3/${songs[currentSong].src}`,
+      e.src = `//cdn.mcalec.dev/audio/wav/${songs[currentSong].src}`,
       e.play(),
       t.classList.add("paused"),
       s.style.display = "block",
@@ -56,8 +38,8 @@ function initMusic() {
       c()
   }
   currentSong = Math.floor(Math.random() * songs.length),
-  e.src = `/audio/mp3/${songs[currentSong].src}`,
-  i.style.display = "none",
+  e.src = `//cdn.mcalec.dev/audio/wav/${songs[currentSong].src}`,
+  //i.style.display = "none",
   t.addEventListener("click", (function() {
       e.paused ? (e.play(),
       t.classList.add("paused"),
@@ -71,7 +53,7 @@ function initMusic() {
   }
   )),
   s.addEventListener("click", o),
-  e.volume = .75,
+  e.volume = .5,
   e.addEventListener("ended", (function() {
       o()
   }
