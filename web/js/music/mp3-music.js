@@ -2,7 +2,7 @@ let songs = [];
 let currentSong = 0;
 async function loadSongs() {
   try {
-    const response = await fetch('/web/json/wav-songs.json'); // json
+    const response = await fetch('/web/json/mp3-songs.json'); // json
     songs = await response.json();
     initMusic();
   } catch (error) {
@@ -17,14 +17,14 @@ function initMusic() {
   n = document.getElementById("music-info");
   function o() {
     currentSong = (currentSong + 1) % songs.length;
-    e.src = `/audio/wav/${songs[currentSong].src}`; // src
+    e.src = `/audio/mp3/${songs[currentSong].src}`; // src
     e.play();
     t.classList.add("paused");
     s.style.display = "block";
     n.textContent = songs[currentSong].title;
   }
   currentSong = Math.floor(Math.random() * songs.length);
-  e.src = `/audio/wav/${songs[currentSong].src}`; // src
+  e.src = `/audio/mp3/${songs[currentSong].src}`; // src
   t.addEventListener("click", function() {
     if (e.paused) {
       e.play();
