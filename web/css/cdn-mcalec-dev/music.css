@@ -1,6 +1,6 @@
 @import url('https://cdn.mcalec.dev/web/css/font/lato.min.css');
 
-p {
+span {
   font-family: LatoRegular;
   font-size: 16px;
 }
@@ -8,73 +8,56 @@ p {
 #music-box {
   position: fixed;
   top: 16.5vh;
-  /*bottom: 0;
-  right: 0;*/
-  width: auto;
-  min-width: 50px;
+  left: 10px;
   background-color: #161c23;
+  padding: 10px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 10px;
-  padding: 10px;
-  margin: 0;
-  box-sizing: border-box;
-  border-radius: 0;
   z-index: 10;
+  width: 25vw;
 }
 
 #music-box.collapsed {
-  min-width: auto;
-  width: auto;
+  width: 40px;
+  height: 40px;
   padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
 }
 
-#music-box.collapsed .music-content {
-  opacity: 0;
-  width: 0;
-  visibility: hidden;
+#music-box.collapsed .music-content,
+#music-box.collapsed #playlist-container {
+  display: none;
 }
 
-#music-box.empty {
-  width: auto;
-  min-width: auto;
+#music-box.collapsed #collapse-toggle {
+  margin: 0;
 }
 
 .music-content {
-  display: flex; 
-  align-items: center; 
-  justify-content: center;
+  display: flex;
+  align-items: center;
   gap: 10px;
+  flex-grow: 1;
+  justify-content: center;
 }
 
 #music-info {
   font-size: 18px;
   color: #fff;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  display: block;
-  transform: translateY(calc(100% - 22.55px));
+  text-align: center;
+  flex-grow: 1;
 }
 
-#music-info:empty {
-  display: none;
-}
-
-#music, #music-skip, #collapse-toggle {
-  width: 40px;
-  height: 40px;
+#music, #music-skip {
+  width: 25px;
+  height: 55px;
   background-size: contain;
   border: none;
   cursor: pointer;
-  border-radius: 50%;
-  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -82,7 +65,6 @@ p {
 
 #music {
   background: url("https://3kh0.net/svg/play.svg") no-repeat center center;
-  z-index: 2;
 }
 
 #music.paused {
@@ -95,59 +77,82 @@ p {
 }
 
 #collapse-toggle {
-  width: 30px;
-  height: 20px;
   background: url("/image/png/arrow1.png") no-repeat center center;
   background-size: contain;
-  border: none;
-  padding-left: 10px;
-  margin: 0;
+}
+
+#playlist-container {
+  width: 100%;
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: #161c23;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.playlist-item {
+  color: #fff;
+  padding: 8px;
+  cursor: pointer;
+  border-bottom: 1px solid #2a2a2a;
+  font-family: LatoRegular;
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 10px;
+}
+
+.playlist-item:hover {
+  background-color: #2a2a2a;
+}
+
+.playing-indicator {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.playlist-item.active .playing-indicator {
+  background-color: #fff;
+}
+
+#time-bar-container {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#time-elapsed, #time-left {
+  color: #fff;
+  font-size: 14px;
+}
+
+#time-bar {
+  flex-grow: 1;
+  height: 5px;
+  background-color: #2a2a2a;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
   cursor: pointer;
 }
 
-#music-box.collapsed #collapse-toggle {
-  margin-left: 10px;
-  margin-top: 0;
-  margin-bottom: 0;
+#time-bar-progress {
+  height: 100%;
+  background-color: #fff;
+  width: 0;
 }
 
-#music-cover {
-  width: 40px;
-  height: 40px;
-  border-radius: 5px;
-  display: none;
-}
-
+/* Media query for smaller screens */
 @media (max-width: 600px) {
   #music-box {
-    width: fit-content;
-    max-width: 100%;
-    margin: 0 10px 10px 10px;
+    width: 90vw; /* Adjust the width for smaller screens */
   }
-
-  #music-box.empty {
-    margin: 0 10px 10px 10px;
-  }
-
-  #music-box.collapsed {
-    transform: translateX(calc(100% - 50px));
-  }
-
-  #music-info {
-    font-size: 14px;
-    max-width: calc(100vw - 50px);
-  }
-
-  #music, #music-skip {
-    width: 30px;
-    height: 30px;
-  }
-
-  #collapse-toggle {
-    width: 20px;
-    height: 20px;
+  #music, #music-skip, #collapse-toggle {
+    width: 20px; /* Adjust the size of the controls for smaller screens */
+    height: 45px; /* Adjust the height of the controls for smaller screens */
   }
 }

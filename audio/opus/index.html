@@ -11,13 +11,18 @@
 </head>
 <body>
   <div id="music-box">
-    <button id="collapse-toggle"></button>
     <div class="music-content">
-      <img id="music-cover" src="//cdn.mcalec.dev/image/png/music.png" style="display: none;">
-      <p class="toggle-link" id="music-info"></p>
-      <button id="music" class="music" type="audio/mpeg"></button> 
-      <button id="music-skip" class="music"></button>
-      <audio id="music-src" src="" hidden=""></audio>
+      <audio id="music-src"></audio>
+      <span id="music-info"></span>
+      <button id="music"></button>
+      <button id="music-skip"></button>
+    </div>
+    <div id="time-bar-container">
+      <span id="time-elapsed">0:00</span>
+      <div id="time-bar">
+        <div id="time-bar-progress"></div>
+      </div>
+      <span id="time-left">0:00</span>
     </div>
   </div>
   
