@@ -26,8 +26,5 @@
   { "title": "Toby Fox - Lancer", "src": "Lancer.wav"},
   { "title": "Maroon 5 - This Love", "src": "This_Love.wav"},
   { "title": "Eagles - Heartache Tonight", "src": "Heartache_Tonight.wav"},
-  { "title": "Boston - More Than a Feeling", "src": "More_Than_a_Feeling.wav"},
-  { "title": "", "src": ""},
-  { "title": "", "src": ""},
-  { "title": "", "src": ""}
+  { "title": "Boston - More Than a Feeling", "src": "More_Than_a_Feeling.wav"}
 ]
