@@ -64,15 +64,18 @@ span {
 }
 
 #music {
-  background: url("https://3kh0.net/svg/play.svg") no-repeat center center;
+  background: url("https://mcalec.dev/img/music/play.png") no-repeat center center;
+  background-size: contain;
 }
 
 #music.paused {
-  background: url("https://3kh0.net/svg/pause.svg") no-repeat center center;
+  background: url("https://mcalec.dev/img/music/pause.png") no-repeat center center;
+  background-size: contain;
 }
 
 #music-skip {
-  background: url("https://3kh0.net/svg/skip.svg") no-repeat center center;
+  background: url("https://mcalec.dev/img/music/skip.png") no-repeat center center;
+  background-size: contain;
   display: none;
 }
 
